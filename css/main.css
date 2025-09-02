@@ -1,4 +1,75 @@
-* {
-    margin: 0px;
-    padding: 0px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+header .logo {
+    width: 80px;
+    height: 80px;
+    background: #ccc;
+    /* placeholder */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.intro .text,
+.intro .sidebar {
+    flex: 1;
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.grid .card {
+    background: #e6e6e6;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background: #f9f9f9;
+    border-top: 2px solid #ddd;
+}
+
+footer .footer-logo {
+    width: 80px;
+    height: 80px;
+    background: #bbb;
+    /* placeholder */
+}
+
+footer .footer-text {
+    flex: 1;
+    margin-left: 20px;
 }
