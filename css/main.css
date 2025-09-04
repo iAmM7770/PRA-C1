@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
     padding: 20px;
     border-bottom: 2px solid #ddd;
+    background-color: #fc0;
 }
 
 header .logo {
@@ -34,7 +35,7 @@ header h1 {
 .intro .text,
 .intro .sidebar {
     flex: 1;
-    background: #f2f2f2;
+    background:rgba(145, 223, 152, 0.8);
     padding: 20px;
     border-radius: 8px;
 }
@@ -43,11 +44,11 @@ header h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 15px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .grid .card {
-    background: #e6e6e6;
+    background:rgba(145, 223, 152, 0.8);
     padding: 40px 20px;
     text-align: center;
     border-radius: 8px;
@@ -60,6 +61,7 @@ footer {
     padding: 20px;
     background: #f9f9f9;
     border-top: 2px solid #ddd;
+    background-color: #fc0;
 }
 
 footer .footer-logo {
@@ -72,4 +74,32 @@ footer .footer-logo {
 footer .footer-text {
     flex: 1;
     margin-left: 20px;
+}
+
+.container h1 {
+    border-top: 2px solid #ddd;
+    text-align: center;
+    padding-top: 25px;
+}
+.grid-container {
+    padding: 10px 200px;
+}
+
+.container-info h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.grid .card-square {
+    background: rgba(145, 223, 152, 0.8);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    aspect-ratio: 1 / 1;
+    padding: 50px;
 }
