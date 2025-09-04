@@ -10,8 +10,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 2px solid #ddd;
     background-color: #fc0;
+    box-shadow: 0 1px 10px black;
 }
 
 header .logo {
@@ -38,6 +38,7 @@ header h1 {
     background:rgba(145, 223, 152, 0.8);
     padding: 20px;
     border-radius: 8px;
+    box-shadow: 0 1px 10px black;
 }
 
 .grid {
@@ -52,6 +53,7 @@ header h1 {
     padding: 40px 20px;
     text-align: center;
     border-radius: 8px;
+    box-shadow: 0 1px 10px black;
 }
 
 footer {
@@ -60,8 +62,9 @@ footer {
     align-items: flex-start;
     padding: 20px;
     background: #f9f9f9;
-    border-top: 2px solid #ddd;
     background-color: #fc0;
+    box-shadow: 0 1px 10px black;
+    margin-top: 50px;
 }
 
 footer .footer-logo {
@@ -102,4 +105,5 @@ footer .footer-text {
 
     aspect-ratio: 1 / 1;
     padding: 50px;
+    box-shadow: 0 1px 10px black;
 }
