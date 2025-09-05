@@ -101,10 +101,14 @@ footer .footer-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 
     aspect-ratio: 1 / 1;
     box-shadow: 0 1px 10px black;
+}
+
+.grid .card-square img {
+    width: 100px;
+    height: 100px;
 }
 
 .img {
@@ -117,4 +121,8 @@ footer .footer-text {
 }
 .img2 {
     text-align: center;
+}
+
+.test a {
+    text-decoration: none;
 }
